@@ -1,0 +1,15 @@
+using Microsoft.Xna.Framework;
+using System;
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+
+namespace PiggyPet.Projectiles.Pets
+{
+	public class FlyingPiggyBank : ModProjectile
+	{
+		public override void SetDefaults() {
+            projectile.aiStyle = ProjectileID.ZephyrFish;
+		}
+	}
+}
